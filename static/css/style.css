@@ -96,6 +96,9 @@ a:hover {
     color: #5ecf0a !important;
 }
 
+.font-size-md {
+    font-size: 1.25rem !important;
+}
 
 /* Backgrounds colours */
 
@@ -105,4 +108,13 @@ a:hover {
 
 .light-orange {
     background-color: #faebd752;
+}
+
+
+/* Navbar */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline:#5ecf0a 1px solid;
 }

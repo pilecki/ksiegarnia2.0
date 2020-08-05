@@ -17,10 +17,69 @@
     <title>Bookshop.co.uk</title>
   </head>
   <body>
+
+    <!-- Main navigation bar -->
+
     <header>
     {% include 'includes/navbar_md_lg.html' %}
     {% include 'includes/navbar_sm.html' %}
     </header>
+
+    <!-- All categories section on small screens -->
+
+    <div class="d-block d-sm-none mx-auto orange w-75 rounded">
+        <div class="text-center">
+            <a class="p-0" type="button" data-toggle="collapse" data-target="#all-categories" aria-controls="all-categories" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">All categories</span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="all-categories">
+            <table class="table table-bordered text-center">            
+                <tbody>
+                    <tr>                
+                        <td>
+                            <a href="">Programming</a>
+                        </td>
+                        <td>
+                            <a href="">Business</a>
+                        </td>
+                    </tr>
+                    <tr>                
+                        <td>
+                            <a href="">Hardware</a>
+                        </td>
+                        <td>
+                            <a href="">Network</a>
+                        </td>
+                    </tr>
+                    <tr>                
+                        <td>
+                            <a href="">Hacking</a>
+                        </td>
+                        <td>
+                            <a href="">Web application</a>
+                        </td>
+                    </tr>
+                    <tr>                
+                        <td>
+                            <a href="">Electronics</a>
+                        </td>
+                        <td>
+                            <a href="">Graphics</a>
+                        </td>
+                    </tr>
+                    <tr>                
+                        <td>
+                            <a href="">Games</a>
+                        </td>
+                        <td>
+                            <a href="">Databases</a>
+                        </td>
+                    </tr>                
+                </tbody>
+            </table> 
+        </div>
+    </div>
     
 
     {% block content %}

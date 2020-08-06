@@ -1,0 +1,62 @@
+[
+  {
+    "pk": 1,
+    "model": "products.authors",
+    "fields": { "name": "eric_matthes", "friendly_name": "Eric Matthes" }
+  },
+  {
+    "pk": 2,
+    "model": "products.authors",
+    "fields": { "name": "dan_gookin", "friendly_name": "Dan Gookin" }
+  },
+  {
+    "pk": 3,
+    "model": "products.authors",
+    "fields": { "name": "mike_meyers", "friendly_name": "Mike Meyers" }
+  },
+  {
+    "pk": 4,
+    "model": "products.authors",
+    "fields": { "name": "miguel_grinberg", "friendly_name": "Miguel Grinberg" }
+  },
+  {
+    "pk": 5,
+    "model": "products.authors",
+    "fields": { "name": "kevin_beaver", "friendly_name": "Kevin Beaver" }
+  },
+  {
+    "pk": 6,
+    "model": "products.authors",
+    "fields": { "name": "doug_lowe", "friendly_name": "Doug Lowe" }
+  },
+  {
+    "pk": 7,
+    "model": "products.authors",
+    "fields": { "name": "dickon_ross", "friendly_name": "Dickon Ross" }
+  },
+  {
+    "pk": 8,
+    "model": "products.authors",
+    "fields": { "name": "tess_bayley", "friendly_name": "Tess Bayley" }
+  },
+  {
+    "pk": 9,
+    "model": "products.authors",
+    "fields": { "name": "leanna_oliver", "friendly_name": "Leanna Oliver" }
+  },
+  {
+    "pk": 10,
+    "model": "products.authors",
+    "fields": { "name": "bill_fane", "friendly_name": "Bill Fane" }
+  },
+  {
+    "pk": 11,
+    "model": "products.authors",
+    "fields": { "name": "michael_dawson", "friendly_name": "Michael Dawson" }
+  },
+  {
+    "pk": 12,
+    "model": "products.authors",
+    "fields": { "name": "", "friendly_name": "" }
+  }
+]

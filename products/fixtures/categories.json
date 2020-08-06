@@ -1,0 +1,22 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": { "name": "books", "friendly_name": "Books" }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": { "name": "ebooks", "friendly_name": "Ebooks" }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": { "name": "videocourses", "friendly_name": "Videocourses" }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": { "name": "audiobooks", "friendly_name": "Audiobooks" }
+  }
+]

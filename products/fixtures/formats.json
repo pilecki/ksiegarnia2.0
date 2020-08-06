@@ -1,0 +1,22 @@
+[
+    {
+    "pk": 1,
+    "model": "products.formats",
+    "fields": { "name": "paperback", "friendly_name": "Paperback" }
+  },
+  {
+    "pk": 2,
+    "model": "products.formats",
+    "fields": { "name": "hardcover", "friendly_name": "Hardcover" }
+  },
+  {
+    "pk": 3,
+    "model": "products.formats",
+    "fields": { "name": "dvd", "friendly_name": "DVD" }
+  },
+  {
+    "pk": 4,
+    "model": "products.formats",
+    "fields": { "name": "mp3", "friendly_name": "MP3" }
+  }
+]

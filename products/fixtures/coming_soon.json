@@ -1,0 +1,46 @@
+[
+  {
+    "pk": 1,
+    "model": "products.comingsoon",
+    "fields": {      
+      "name": "Python Crash Course (2nd Edition) Paperback – 9 May 2019",
+      "description": "Second edition of the best selling Python book in the world. A fast-paced, no-nonsense guide to programming in Python. This book teaches beginners the basics of programming in Python with a focus on real projects. This is the second edition of the best selling Python book in the world. Python Crash Course, 2nd Edition is a straightforward introduction to the core of Python programming. Author Eric Matthes dispenses with the sort of tedious, unnecessary information that can get in the way of learning how to program, choosing instead to provide a foundation in general programming concepts, Python fundamentals, and problem solving. Three real world projects in the second part of the book allow readers to apply their knowledge in useful ways. Readers will learn how to create a simple video game, use data visualization techniques to make graphs and charts, and build and deploy an interactive web application. Python Crash Course, 2nd Edition teaches beginners the essentials of Python quickly so that they can build practical programs and develop powerful programming techniques.",      
+      "image_url": "https://www.amazon.co.uk/photos/share/MnKgTuDWFLOOteOXKqH3Lp16iFOzHowozn8BoQJm11Q",
+      "image": "1.jpg",
+      "available_date": "2020-04-14"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.comingsoon",
+    "fields": {      
+      "name": "SQL All-In-One For Dummies, 3rd Edition (For Dummies (Computer/Tech)) Paperback – 30 April 2019",
+      "description": "The latest on SQL databases SQL All -In-One For Dummies, 3rd Edition, is a one-stop shop for everything you need to know about SQL and SQL-based relational databases. Everyone from database administrators to application programmers and the people who manage them will find clear, concise explanations of the SQL language and its many powerful applications. With the ballooning amount of data out there, more and more businesses, large and small, are moving from spreadsheets to SQL databases like Access, Microsoft SQL Server, Oracle databases, MySQL, and PostgreSQL. This compendium of information covers designing, developing, and maintaining these databases. Cope with any issue that arises in SQL database creation and management Get current on the newest SQL updates and capabilities Reference information on querying SQL-based databases in the SQL language Understand relational databases and their importance to today's organizations SQL All-In-One For Dummies is a timely update to the popular reference for readers who want detailed information about SQL databases and queries.",      
+      "image_url": "https://www.amazon.co.uk/photos/share/nopGKzbanPGvOlXObbWB5LREFViTc7WKRzUNlidJtOw",
+      "image": "2.jpg",
+      "available_date": "2020-04-14"      
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.comingsoon",
+    "fields": {
+      "name": "Troubleshooting & Maintaining Your PC All-in-One For Dummies (For Dummies (Computers)) Paperback – 1 Aug. 2017",
+      "description": "Stop being a prisoner to your PC! Need a PC problem fixed in a pinch? Presto! Troubleshooting & Maintaining Your PC All-in-One For Dummies offers 5 books in 1 and takes the pain out of wading through those incomprehensible manuals, or waiting for a high-priced geek to show up days or weeks after you need them. Arming you with everything you need to get that pesky PC working for you ASAP, this handy guide walks you through all the steps to restoring whatever's making your PC go rogue so you can get back to making it work for you. There's nothing worse than firing up your PC only to discover it's inexplicably unresponsive. With this guide, you'll gain all the skills and insight you need to need to bring it back to life and to prevent it from ever leaving you in the lurch again. * Find out what's behind common PC problems * Solve email and web woes, both big and small * Perform regular maintenance and get serious about backups * Troubleshoot to find solutions to your issues and learn proper maintenance to head off future headaches! Your PC problems aren't as big as you think! Take matters into your own hands with the helpful instruction provided inside this book!",
+      "image_url": "https://www.amazon.co.uk/photos/share/N75RGg5ikZTXrwLqodFusqCGdZ9HZYakNr8eV92CGUi",
+      "image": "3.jpg",
+      "available_date": "2020-04-14"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.comingsoon",
+    "fields": {
+      "name": "CompTIA Network+ Certification All-in-One Exam Guide, Seventh Edition (Exam N10-007) Hardcover – Student Edition, 18 July 2018",
+      "description": "Thoroughly revised for the new CompTIA Network+ exam, the Seventh Edition of this bestselling All-in-One Exam Guide delivers 100% coverage of the exam objectives and serves as a valuable on-the-job reference. Take the latest version of the CompTIA Network+ exam with complete confidence using the fully updated information contained in this comprehensive self-study system. The book offers clear instruction and real-world examples from training expert and bestselling author Mike Meyers along with hundreds of accurate practice questions. Fulfilling the promise of the All-in-One series, this complete reference serves both as a study tool and a valuable on-the-job reference that will serve readers beyond the exam. CompTIA Network+ Certification All-in-One Exam Guide, Seventh Edition (Exam N10-007) also includes access to free video training and interactive hands-on labs and simulations that prepare you for difficult performance-based questions. A valuable pre-assessment test enables readers to gauge their familiarity with the test’s objectives and tailor an effective course for study. Contains complete coverage of every objective for the CompTIA Network+ Certification exam. Written by CompTIA training and certification guru Mike Meyers. Electronic content includes the Total Tester exam simulator with over 100 practice questions, over an hour of training videos, and a collection of Mike Meyers’ favorite shareware and freeware networking utilities",
+      "image_url": "https://www.amazon.co.uk/photos/share/CNRkIP2oEvmbrm1jlf1oYmBH6xDzV23alOufIxflGUq",
+      "image": "4.jpg",
+      "available_date": "2020-04-14"
+    }
+  }
+]

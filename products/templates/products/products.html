@@ -1,0 +1,54 @@
+  
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %} 
+           
+    <div class="col-10 mx-auto mt-5">
+        <div class="row">
+            {% for product in products %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-5">
+                    <div class="h-100 container cards-body">
+                        <div class=" cards-width mx-auto mb-2">
+                            {% if product.image %}
+                            <a href="">
+                                <img class="cover" src="{{ product.image.url }}" alt="{{ product.name }}">                                                                
+                            </a>
+                            {% else %}
+                            <a href="">
+                                <img class="" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+                        </div>
+                        <div class="cards-width mx-auto cards-height mb-xl-3">                                
+                            <strong><p class="mb-0 font-sm text-center">{{ product.name|truncatechars:80 }}</p></strong>
+                        </div>
+                        <div class="cards-width mx-auto">                                
+                            <p class="mb-0 font-sm text-center roboto-font letter-space font-beige">{{ product.author1.friendly_name }}</p>
+                        </div>
+                        <div class="cards-width mx-auto">                                                                                                                           
+                            {% if request.user.is_superuser %}
+                            <div>
+                               <a href="">Edit</a>
+                               <a href="">Delete</a>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="cards-width mx-auto">
+                            <form class="form btn-small rounded border-0 orange card-form mx-auto mt-3" action="" method="POST">
+                            {% csrf_token %}                        
+                                <input type="hidden" name="quantity" value="1" min="1" max="1">
+                                <i class="fas fa-shopping-cart font-brown ml-2"></i>                                 
+                                <input type="submit" class="border-0 font-weight-bold pl-1" value="£{{ product.price }}">
+                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            </form>
+                        </div>
+                    </div>                       
+                </div>                           
+            {% endfor %}
+        </div>
+    </div>           
+    
+   
+{% endblock %}

@@ -1,8 +1,9 @@
-html,
+html {
+    height:100%
+}
 body {
     margin: 0;
-    padding: 0;
-    height: 100%;
+    padding: 0;    
     font-family: 'Raleway', sans-serif;
     background-color: #faebd752;
     color: #584838;
@@ -96,9 +97,31 @@ a:hover {
     color: #5ecf0a !important;
 }
 
-.font-size-md {
+.font-beige {
+    color: #70560ec7 !important;
+}
+
+.font-brown {
+    color:  #584838 !important;
+}
+
+.font-md {
     font-size: 1.25rem !important;
 }
+
+.font-sm {
+    font-size: 0.8rem;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.letter-space {
+    letter-spacing: 1px;
+}
+
+
 
 /* Backgrounds colours */
 
@@ -117,4 +140,30 @@ a:hover {
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline:#5ecf0a 1px solid;
+}
+
+
+/* Cards */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cards-width {
+    width: 100%;
+}
+.cards-height {
+    height: 60px;    
+}
+
+.cards-body {
+    border: 1px solid #584838;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #f4f2eb;
+}
+
+.card-form {
+    width: fit-content;
 }

@@ -126,7 +126,7 @@ a:hover {
 /* Backgrounds colours */
 
 .orange {
-    background-color: #e77740;
+    background-color: #e77740 !important;
 }
 
 .light-orange {
@@ -164,6 +164,13 @@ img {
     background-color: #f4f2eb;
 }
 
+.cards-body:hover{
+    box-shadow: 0 4px 8px 0 rgba(88, 72, 56, 0.3), 0 6px 20px 0 rgba(88, 72, 56, 0.5);
+}
+
 .card-form {
     width: fit-content;
 }
+
+/* Buttons */
+

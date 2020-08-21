@@ -12,8 +12,8 @@
                     <div class="h-100 container cards-body">
                         <div class=" cards-width mx-auto mb-2">
                             {% if product.image %}
-                            <a href="">
-                                <img class="cover" src="{{ product.image.url }}" alt="{{ product.name }}">                                                                
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img class="" src="{{ product.image.url }}" alt="{{ product.name }}">                                                                
                             </a>
                             {% else %}
                             <a href="">

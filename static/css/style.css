@@ -174,3 +174,10 @@ img {
 
 /* Buttons */
 
+/* Display */
+
+@media screen and (min-width: 768px )  and (max-width: 991px){ 
+    .hide-desc {
+        display: none !important;    
+}
+ }

@@ -20,7 +20,8 @@ class Product(models.Model):
                                  blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
-    description = models.TextField()
+    description1 = models.CharField(max_length=370, null=True, blank=True)
+    description2 = models.TextField()
     genre = models.ForeignKey('Genre', null=True,
                               blank=True, on_delete=models.SET_NULL)
     price = models.DecimalField(max_digits=6, decimal_places=2)

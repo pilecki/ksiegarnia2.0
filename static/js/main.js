@@ -70,3 +70,6 @@ for (let i = 0; i <  downBtn.length; i++){
         }                   
         }) 
     }
+
+
+

@@ -6,7 +6,8 @@
 {% block content %}    
     <div class="container">
        <div class="container-fluid">
-            <div class="row">                
+            <div class="row">
+                <!-- Column with the information about product  -->
                 <div class="col-md-6">                    
                     <p class="mb-2 pt-3 font-weight-bold">{{ product.name }}</p>
                     <p class="lead mb-1 text-left">£{{ product.price }}</p>
@@ -21,8 +22,13 @@
                         <a href="">Delete</a>
                      </div>
                     {% endif %}
-                    <p class="mt-3">{{ product.description }}</p>                                        
-                </div>
+                    <p class="mt-3 mb-0" id="description">{{ product.description1 }}
+                        {% if product.description2 %}
+                        <span class="hide-desc">{{ product.description2 }}</span>
+                        {% endif %}
+                    </p>                                                            
+                </div>                
+                <!-- Column with the image of the product -->
                 <div class="col-md-6 d-none d-md-block h-100">                    
                     {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank" class="float-md-left pr-3 pt-3">
@@ -34,7 +40,14 @@
                     </a>
                     {% endif %}
                 </div>
+                {% if product.description2 %}
+                <div class="col-12 d-none d-md-block d-lg-none">
+                    <p class="mt-3 mb-0">{{ product.description2 }}</p>
+                </div>
+                {% endif %}
             </div>
+            
+            <!-- Quantity input field -->
             <div class="col-12">
                 <form class="form" action="" method="POST">
                     {% csrf_token %}
